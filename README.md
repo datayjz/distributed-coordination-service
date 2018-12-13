@@ -103,11 +103,14 @@ Zookeeper API提供了同步(synchronous)和异步(asynchronous)方法：同步�
 
 ## Jar包引入
 这里采用最目前最新版3.4.13版本。
+```
 <dependency>
     <groupId>org.apache.zookeeper</groupId>
     <artifactId>zookeeper</artifactId>
     <version>3.4.13</version>
 </dependency>
+```
+
 
 ## 创建Zookeeper连接
 创建Zookeeper连接需要通过Zookeeper类的构造方法```ZooKeeper(String connectString, int sessionTimeout, Watcher watcher)```来创键，它需要三个参数：

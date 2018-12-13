@@ -110,7 +110,7 @@ Zookeeper API提供了同步(synchronous)和异步(asynchronous)方法：同步�
 </dependency>
 
 ## 创建Zookeeper连接
-创建Zookeeper连接需要通过Zookeeper类的构造方法```ZooKeeper(String connectString, int sessionTimeout, Watcher watcher)``来创键，它需要三个参数：
+创建Zookeeper连接需要通过Zookeeper类的构造方法```ZooKeeper(String connectString, int sessionTimeout, Watcher watcher)```来创键，它需要三个参数：
 * connectString：Zookeeper连接地址，比如“192.168.0.1：2181”。
 * sessionTimeout：会话超时时间，单位毫秒。
 * watcher：实现Watcher接口的类对象，用于监听与Zookeeper集合连接的状态信息。当连接状态信息发生改变时，该监听器会被触发。
